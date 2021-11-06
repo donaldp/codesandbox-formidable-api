@@ -7,13 +7,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "craftsman build",
-    "build:dev": "craftsman build --env=development",
-    "build:test": "craftsman build --env=testing",
-    "build:prod": "craftsman build --env=production",
-    "start": "craftsman serve",
-    "start:dev": "craftsman serve --dev",
-    "test": "jest --roots test",
-    "test:watch": "jest --roots test --watchAll"
+    "start": "craftsman serve --dev",
+    "test": "jest --roots test"
   },
   "dependencies": {
     "@bugsnag/js": "^7.13.2",
